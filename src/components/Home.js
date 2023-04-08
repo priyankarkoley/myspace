@@ -22,7 +22,7 @@ export default function Home() {
         {/* glad to see you here */}
         <span className="block text-center font-semibold sm:-mt-5 md:text-left md:mt-5 md:pl-16 md:pt-5 lg:pt-20 xl:mt-11 xl:pl-40 xl:pt-24 md:text-2xl 2xl:pl-52 2xl:text-3xl">
           Hey, Glad to see
-          <span className="italic sm:text-white">&nbsp;you</span> here!
+          <span className="italic text-[#11c4ff] sm:text-white">&nbsp;you</span> here!
         </span>
 
         {/* I'm PK */}
