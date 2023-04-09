@@ -1,7 +1,10 @@
 export default function Contact(props) {
+  let isLightMode = props.mode;
   return (
-    <div>
-      Contact Me
-    </div>
-  )
+    <span className={!isLightMode && "dark"}>
+      <div className="bg-yellow-300 dark:bg-black">
+        Folio
+      </div>
+    </span>
+  );
 }

@@ -12,10 +12,10 @@ export default function App() {
     <Router>
       <Navbar mode={isLightMode} setmode={setIsLightMode} />
       <Routes>
-        <Route path='/myspace' element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="folio" element={<Folio />} />
-          <Route path="contact" element={<Contact />} />
+        <Route path='/myspace' element={<Home mode={isLightMode}  />} />
+          <Route path="about" element={<About mode={isLightMode}  />} />
+          <Route path="folio" element={<Folio mode={isLightMode}  />} />
+          <Route path="contact" element={<Contact mode={isLightMode}  />} />
       </Routes>
     </Router>
   );
