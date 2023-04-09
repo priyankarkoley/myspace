@@ -1,9 +1,10 @@
 import React from "react";
 import coder_guy from "../images/coder.webp";
 
-export default function Home() {
+export default function Home(props) {
+ let isLightMode = props.isLightMode;
   return (
-    <>
+    <span classname={!isLightMode&&'dark'}>
       {/* image */}
       <div className="bg-[#46ABFF] sm:fle sm:absolute sm:w-full -z-10">
         <img
@@ -45,6 +46,6 @@ export default function Home() {
           </div>
         </span>
       </div>
-    </>
+    </span>
   );
 }
