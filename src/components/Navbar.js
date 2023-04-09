@@ -30,7 +30,7 @@ export default function Navbar(props) {
             {isExpanded ? "expand_less" : "menu"}
           </button>
           <Link
-            to="/"
+            to="/myspace"
             className="ml-2 pl-3 text-xl py-3 sm:ml-2 md:ml-6 lg:ml-12 xl:ml-16 2xl:ml-20 2xl:text-2xl dark:text-[#A5C9CA] dark:hover:text-white hover:cursor-pointer"
           >
             Priyankar's Page
@@ -42,12 +42,12 @@ export default function Navbar(props) {
           >
             {isLightMode ? "dark_mode" : "light_mode"}
           </button>
-          <Link to="/" className="sm:hidden mr-3 p-2">
+          <Link to="/myspace" className="sm:hidden mr-3 p-2">
             <img className="h-9 rounded-full" src={dp} alt="me" />
           </Link>
           <div className="hidden sm:flex ml-auto mr-5 2xl:text-lg space-x-5 md:mr-10 lg:mr-12 xl:mr-20 2xl:mr-32 md:space-x-10 lg:space-x-16 2xl:space-x-24">
             <Link
-              to="/"
+              to="/myspace"
               className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white"
             >
               Home

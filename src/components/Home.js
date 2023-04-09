@@ -1,10 +1,13 @@
 import React from "react";
 import coder_guy from "../images/coder.webp";
+import Navbar from './Navbar';
 
 export default function Home(props) {
- let isLightMode = props.isLightMode;
+  let isLightMode = props.mode;
+  let setIsLightMode = props.setmode;
   return (
     <span classname={!isLightMode&&'dark'}>
+    <Navbar  mode={isLightMode} setmode = {setIsLightMode}/>
       {/* image */}
       <div className="bg-[#46ABFF] sm:fle sm:absolute sm:w-full -z-10">
         <img
