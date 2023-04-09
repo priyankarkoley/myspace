@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Menu from "./Menu.js";
 import dp from "../images/dp_rounded.jpeg";
+import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
   const [isExpanded, setisExpanded] = useState(false);
@@ -28,9 +29,12 @@ export default function Navbar(props) {
           >
             {isExpanded ? "expand_less" : "menu"}
           </button>
-          <div className="ml-2 pl-3 text-xl py-3 sm:ml-2 md:ml-6 lg:ml-12 xl:ml-16 2xl:ml-20 2xl:text-2xl dark:text-[#A5C9CA] dark:hover:text-white hover:cursor-pointer">
+          <Link
+            to="/"
+            className="ml-2 pl-3 text-xl py-3 sm:ml-2 md:ml-6 lg:ml-12 xl:ml-16 2xl:ml-20 2xl:text-2xl dark:text-[#A5C9CA] dark:hover:text-white hover:cursor-pointer"
+          >
             Priyankar's Page
-          </div>
+          </Link>
 
           <button
             onClick={toggleTheme}
@@ -38,25 +42,42 @@ export default function Navbar(props) {
           >
             {isLightMode ? "dark_mode" : "light_mode"}
           </button>
-          <div className="sm:hidden mr-3 p-2">
+          <Link to="/" className="sm:hidden mr-3 p-2">
             <img className="h-9 rounded-full" src={dp} alt="me" />
-          </div>
+          </Link>
           <div className="hidden sm:flex ml-auto mr-5 2xl:text-lg space-x-5 md:mr-10 lg:mr-12 xl:mr-20 2xl:mr-32 md:space-x-10 lg:space-x-16 2xl:space-x-24">
-            <div className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white">
+            <Link
+              to="/"
+              className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white"
+            >
               Home
-            </div>
-            <div className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white">
+            </Link>
+            <Link
+              to="/about"
+              className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white"
+            >
               About Me
-            </div>
-            <div className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white">
+            </Link>
+            <Link
+              to="/folio"
+              className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white"
+            >
               Folio
-            </div>
-            <div className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white">
+            </Link>
+            <a
+              rel="noreferrer"
+              href="https://flowcv.com/resume/8ls7tq49ju"
+              target="_blank"
+              className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white"
+            >
               Resume
-            </div>
-            <div className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white">
+            </a>
+            <Link
+              to="/contact"
+              className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white"
+            >
               Contact Me
-            </div>
+            </Link>
             <button
               onClick={toggleTheme}
               className="ml-16 hover:text-white material-symbols-outlined dark:text-[#A5C9CA] dark:hover:text-white"
