@@ -3,7 +3,7 @@ export default function About(props) {
   return (
     <span className={!isLightMode && "dark"}>
       <div className="bg-yellow-300 dark:bg-black">
-        Folio
+        About
       </div>
     </span>
   );
