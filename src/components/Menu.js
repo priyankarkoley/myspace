@@ -1,9 +1,7 @@
-import React from 'react'
-
 export default function Menu() {
   return (
     <>
-      <div  className='absolute top-[3.3rem] w-full sm:hidden'>
+      <div className="absolute top-[3.3rem] w-full sm:hidden">
         <div className="dark:text-[#A5C9CA] bg-[#305fa9b4] dark:bg-[#395B64f3] text-lg border-b border-t border-cyan-200 backdrop-blur py-[0.73rem] pl-14">
           Home
         </div>
@@ -21,5 +19,5 @@ export default function Menu() {
         </div>
       </div>
     </>
-  )
+  );
 }
