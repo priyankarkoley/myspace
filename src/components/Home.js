@@ -3,7 +3,7 @@ import coder_guy from "../images/coder.webp";
 export default function Home(props) {
   let isLightMode = props.mode;
   return (
-    <span className={!isLightMode && "dark"}>
+    <span className={!isLightMode ? "dark" : ""}>
       {/* image */}
       <div className="bg-[#46ABFF] sm:fle sm:absolute sm:w-full -z-10">
         <img

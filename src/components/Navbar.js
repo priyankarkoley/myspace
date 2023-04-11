@@ -17,8 +17,8 @@ export default function Navbar(props) {
   };
 
   return (
-    <span className={!isLightMode && "dark"}>
-      <div className="sticky top-0 bg-[#367bc9a8] shadow-lg dark:shadow-sm dark:shadow-white dark:bg-[#395B64f3]">
+    <span className={!isLightMode ? "dark" : ""}>
+      <div className="sticky top-0 bg-[#367bc9a8] shadow-lg dark:shadow-sm dark:shadow-white dark:bg-[#395B64f3] z-10">
         {" "}
         {/*parent*/}
         {/* NAVBAR Begin*/}
