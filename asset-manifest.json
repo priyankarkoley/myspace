@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/myspace/static/css/main.5782dd64.css",
-    "main.js": "/myspace/static/js/main.733516e6.js",
+    "main.css": "/myspace/static/css/main.c24c8373.css",
+    "main.js": "/myspace/static/js/main.75ac8dc7.js",
     "static/media/grp.jpg": "/myspace/static/media/grp.0dff4081107ff55c7a03.jpg",
+    "static/media/Binary.jpg": "/myspace/static/media/Binary.9985f2712af3130d8176.jpg",
+    "static/media/me.jpg": "/myspace/static/media/me.191e33bedd8dfe94c9b7.jpg",
     "static/media/dp_rounded.jpeg": "/myspace/static/media/dp_rounded.711d6ff47dd03c1142a0.jpeg",
-    "static/media/coder.webp": "/myspace/static/media/coder.45c9fd85ed35055803ac.webp",
+    "static/media/coder2.png": "/myspace/static/media/coder2.c2284bc32b630bbce192.png",
+    "static/media/photography.webp": "/myspace/static/media/photography.604447edc17c11f607c3.webp",
+    "static/media/Arduino.jpg": "/myspace/static/media/Arduino.01d4f05083292f8e1fd2.jpg",
     "index.html": "/myspace/index.html",
-    "main.5782dd64.css.map": "/myspace/static/css/main.5782dd64.css.map",
-    "main.733516e6.js.map": "/myspace/static/js/main.733516e6.js.map"
+    "main.c24c8373.css.map": "/myspace/static/css/main.c24c8373.css.map",
+    "main.75ac8dc7.js.map": "/myspace/static/js/main.75ac8dc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5782dd64.css",
-    "static/js/main.733516e6.js"
+    "static/css/main.c24c8373.css",
+    "static/js/main.75ac8dc7.js"
   ]
 }
