@@ -18,14 +18,14 @@ export default function Navbar(props) {
 
   return (
     <span className={!isLightMode ? "dark" : ""}>
-      <div className="sticky top-0 bg-[#367bc9a8] shadow-lg dark:shadow-sm dark:shadow-white dark:bg-[#395B64f3] z-10">
+      <div className="sticky top-0 bg-[#367bc9a8] shadow-lg dark:shadow-sm dark:shadow-gray-500 dark:bg-[#395B64f3] z-10">
         {" "}
         {/*parent*/}
         {/* NAVBAR Begin*/}
         <div className="flex w-full items-center pt-[0.072rem]  backdrop-blur">
           <button
             onClick={clickHam}
-            className="ml-3 material-symbols-outlined sm:hidden"
+            className="ml-3 hover:text-white material-symbols-outlined dark:text-[#A5C9CA] dark:hover:text-white sm:hidden"
           >
             {isExpanded ? "expand_less" : "menu"}
           </button>
@@ -38,7 +38,7 @@ export default function Navbar(props) {
 
           <button
             onClick={toggleTheme}
-            className="sm:hidden ml-auto p-2 py-auto material-symbols-outlined"
+            className="sm:hidden ml-auto p-2 py-auto hover:text-white material-symbols-outlined dark:text-[#A5C9CA] dark:hover:text-white"
           >
             {isLightMode ? "dark_mode" : "light_mode"}
           </button>
@@ -87,7 +87,7 @@ export default function Navbar(props) {
           </div>
         </div>
         {/* NAVBAR End*/}
-        {isExpanded && <Menu />}
+        {isExpanded && <Menu closeFun={clickHam}/>}
       </div>
     </span>
   );

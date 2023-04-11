@@ -4,6 +4,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      brightness: {
+        65: '.65'
+      },
       fontFamily: {
         satisy: ["'Indie Flower'", "cursive"],
         home: ["Poppins", "sans-serif"],

@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-export default function Menu() {
+export default function Menu(props) {
+  let collapse = props.closeFun
   return (
     <>
-      <div className="absolute top-[3.3rem] w-full sm:hidden">
+      <div onClick={collapse} className="absolute top-[3.3rem] w-full sm:hidden">
         <Link
           to="/myspace"
           className="block dark:text-[#A5C9CA] bg-[#305fa9b4] dark:bg-[#395B64f3] text-lg border-b border-t border-cyan-200 backdrop-blur py-[0.73rem] pl-14"
