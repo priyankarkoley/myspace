@@ -1,4 +1,4 @@
-import coder_guy from "../images/coder.webp";
+import coder_guy from "../images/coder2.png";
 
 export default function Home(props) {
   let isLightMode = props.mode;

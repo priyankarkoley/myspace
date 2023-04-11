@@ -8,7 +8,7 @@ export default function About(props) {
   let isLightMode = props.mode;
   return (
     <div className={!isLightMode ? "dark" : ""}>
-      <div className="bg-[#95E1D3] dark:bg-[#393E46] dark:text-white text-xl lg:text-2xl 2xl:text-3xl px-6 py-8 sm:p-12 md:py-14 md:px-10 lg:px-24 xl:px-40 2xl:px-48 text-justify space-y-14">
+      <div className="bg-[#BCEAD5] dark:bg-[#245953] dark:text-white text-xl lg:text-2xl 2xl:text-3xl px-6 py-8 sm:p-12 md:py-14 md:px-10 lg:px-24 xl:px-40 2xl:px-48 text-justify space-y-14">
         <div className="flex flex-col md:flex-row">
           <img
             className="object-cover mx-auto md:items-stretch md:w-1/3 mb-3 sm:mb-6 md:mb-0 md:mr-10 lg:mr-16 xl:mr-22 2xl:mr-28 drop-shadow-xl rounded-2xl border-2 dark:border-yellow-400 border-[#6a1e2c]"
@@ -75,7 +75,7 @@ export default function About(props) {
               interests and hobbies that keep me balanced and happy. I love
               football, going to the gym, and swimming. I also love photography
               and capturing the beauty of nature and life. These activities help
-              me relax and recharge my energy.
+              me relax and recharge my energy. Also, I'vs been into Animes Lately! 😉
             </span>
           </div>
         </div>
