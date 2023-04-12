@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Menu from "./Menu.js";
-import dp from "../images/dp_rounded.jpeg";
+import dp from "../images/dp_rounded_512x512.jpeg";
 import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
@@ -53,12 +53,6 @@ export default function Navbar(props) {
               Home
             </Link>
             <Link
-              to="/about"
-              className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white"
-            >
-              About Me
-            </Link>
-            <Link
               to="/folio"
               className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white"
             >
@@ -72,6 +66,12 @@ export default function Navbar(props) {
             >
               Resume
             </a>
+            <Link
+              to="/about"
+              className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white"
+            >
+              About Me
+            </Link>
             <Link
               to="/contact"
               className="text-center hover:shadow-md hover:text-white hover:cursor-pointer hover:underline hover:underline-offset-4 dark:text-[#A5C9CA] dark:hover:text-white"

@@ -1,8 +1,8 @@
-import p1 from "../images/grp.jpg";
-import p2 from "../images/Arduino.jpg";
-import p3 from "../images/Binary.jpg";
+import p1 from "../images/grp_ 600.jpg";
+import p2 from "../images/Arduino_512x384.jpeg";
+import p3 from "../images/Binary_512x683.jpeg";
 import p4 from "../images/photography.webp";
-import p5 from "../images/me.jpg";
+import p5 from "../images/me_512x398.jpeg";
 
 export default function About(props) {
   let isLightMode = props.mode;
@@ -75,7 +75,7 @@ export default function About(props) {
               interests and hobbies that keep me balanced and happy. I love
               football, going to the gym, and swimming. I also love photography
               and capturing the beauty of nature and life. These activities help
-              me relax and recharge my energy. Also, I'vs been into Animes Lately! 😉
+              me relax and recharge my energy. Also, I've been into Animes Lately! 😉
             </span>
           </div>
         </div>

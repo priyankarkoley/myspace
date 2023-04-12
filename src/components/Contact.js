@@ -36,14 +36,14 @@ export default function Contact(props) {
             <img
               src={p3}
               alt="gh"
-              className="h-9 w-9 drop-shadow-2xl rounded-md sm:h-12 sm:w-12"
+              className="h-9 w-9 drop-shadow-2xl rounded-xl sm:h-12 sm:w-12"
             />
           </a>
           <a href="https://www.instagram.com/priyankar_koley/">
             <img
               src={p4}
               alt="gh"
-              className="h-9 w-9 drop-shadow-2xl rounded-xl sm:h-12 sm:w-12"
+              className="h-9 w-9 drop-shadow-2xl rounded-2xl sm:h-12 sm:w-12"
             />
           </a>
           <a href="https://www.facebook.com/priyankar.koley/">
@@ -56,7 +56,7 @@ export default function Contact(props) {
         </div>
 
         <div className="">
-          <div className="mt-16 mx-auto border border-gray-400 bg-white py-7 lg:w-[760px] xl:w-[900px]">
+          <div className="mt-16 mx-auto border rounded-lg border-gray-400 bg-white py-7 lg:w-[760px] xl:w-[900px]">
             <form
               action="https://formsubmit.co/f71a5fa4717401170d6b2d8f69f7751b"
               method="POST"
@@ -69,14 +69,14 @@ export default function Contact(props) {
                     id="fname"
                     name="fname"
                     placeholder="Enter first name"
-                    className="border-b border-black px-1 pt-6 text-lg w-5/6"
+                    className="rounded-lg border-b border-black px-1 pt-6 text-lg w-5/6"
                   />
                   <input
                     type="text"
                     id="lname"
                     name="lname"
                     placeholder="Enter last name"
-                    className="border-b border-black p-1 text-lg w-5/6"
+                    className="rounded-lg border-b border-black p-1 text-lg w-5/6"
                   />
                 </div>
                 <input
@@ -85,14 +85,14 @@ export default function Contact(props) {
                   name="email"
                   placeholder="Enter your email here"
                   required
-                  className="border-b border-black px-1 text-lg w-5/6"
+                  className="rounded-lg border-b border-black px-1 text-lg w-5/6"
                 />
                 <input
                   type="text"
                   id="Sub"
                   name="_subject"
                   placeholder="Subject here"
-                  className="border-b border-black px-1 text-lg w-5/6"
+                  className="rounded-lg border-b border-black px-1 text-lg w-5/6"
                 />
                 <textarea
                   rows="1"
@@ -100,23 +100,18 @@ export default function Contact(props) {
                   id="msg"
                   name="msg"
                   placeholder="Say hello!"
-                  className="border-b  border-black px-1 text-lg w-5/6"
+                  className="rounded-lg border-b  border-black px-1 text-lg w-5/6"
                 />
                 <input
                   type="hidden"
                   name="_next"
                   value="https://priyankarkoley.github.io/myspace/"
                 ></input>
-                <input
-                  type="hidden"
-                  name="_autoresponse"
-                  value="Thanks for contacting us! We will look into your msg soon."
-                ></input>
                 <input type="hidden" name="_template" value="table"></input>
               </div>
               <button
                 type="submit"
-                className="bg-purple-600 hover:bg-purple-500 px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white"
+                className="bg-[#46ABFF] hover:bg-[#46acffa2] px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white"
               >
                 Send
               </button>
@@ -124,7 +119,7 @@ export default function Contact(props) {
           </div>
           <button
             onClick={handleClick}
-            className="m-11 bg-purple-600 hover:bg-purple-500 px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white"
+            className="m-11 bg-[#46ABFF] hover:bg-[#46acffa2] px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white"
           >
             Other Ways To Contact
           </button>
