@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myspace/static/css/main.a6f4d7dc.css",
-    "main.js": "/myspace/static/js/main.92b36789.js",
+    "main.css": "/myspace/static/css/main.37b16dac.css",
+    "main.js": "/myspace/static/js/main.61e85f01.js",
     "static/media/grp.jpg": "/myspace/static/media/grp.0dff4081107ff55c7a03.jpg",
     "static/media/Binary.jpg": "/myspace/static/media/Binary.9985f2712af3130d8176.jpg",
     "static/media/me.jpg": "/myspace/static/media/me.191e33bedd8dfe94c9b7.jpg",
@@ -10,14 +10,15 @@
     "static/media/photography.webp": "/myspace/static/media/photography.604447edc17c11f607c3.webp",
     "static/media/Arduino.jpg": "/myspace/static/media/Arduino.01d4f05083292f8e1fd2.jpg",
     "static/media/fb.png": "/myspace/static/media/fb.8fcb5fc5c46be3682f2d.png",
+    "static/media/wp.png": "/myspace/static/media/wp.8a7dbb15dfc730877ada.png",
     "static/media/ig.png": "/myspace/static/media/ig.4ad6fe739d04408e1bf4.png",
     "static/media/li.webp": "/myspace/static/media/li.43c568bc85cfbd64bc05.webp",
     "index.html": "/myspace/index.html",
-    "main.a6f4d7dc.css.map": "/myspace/static/css/main.a6f4d7dc.css.map",
-    "main.92b36789.js.map": "/myspace/static/js/main.92b36789.js.map"
+    "main.37b16dac.css.map": "/myspace/static/css/main.37b16dac.css.map",
+    "main.61e85f01.js.map": "/myspace/static/js/main.61e85f01.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6f4d7dc.css",
-    "static/js/main.92b36789.js"
+    "static/css/main.37b16dac.css",
+    "static/js/main.61e85f01.js"
   ]
 }
