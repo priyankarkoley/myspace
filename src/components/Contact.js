@@ -67,6 +67,7 @@ export default function Contact(props) {
                 <input type="email" id="email" name="email" placeholder="Enter your email here" required className="border-b border-black px-1 text-lg w-5/6"/>
                 <input type="text" id="Sub" name="_subject" placeholder="Subject here" className="border-b border-black px-1 text-lg w-5/6"/>
                 <textarea rows="1" type="text" id="msg" name="msg" placeholder="Say hello!" className="border-b  border-black px-1 text-lg w-5/6"/>
+                <input type="hidden" name="_next" value="https://priyankarkoley.github.io/myspace/"></input>
                 <input type="hidden" name="_next" value="https://priyankarkoley.github.io/contact"></input>
                 <input type="hidden" name="_autoresponse" value="Thanks for contacting us! We will look into your msg soon."></input>
                 <input type="hidden" name="_template" value="table"></input>
