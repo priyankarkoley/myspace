@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/myspace/static/css/main.5d0ab5e7.css",
-    "main.js": "/myspace/static/js/main.0e798c3a.js",
-    "static/media/grp.jpg": "/myspace/static/media/grp.0dff4081107ff55c7a03.jpg",
-    "static/media/Binary.jpg": "/myspace/static/media/Binary.9985f2712af3130d8176.jpg",
-    "static/media/me.jpg": "/myspace/static/media/me.191e33bedd8dfe94c9b7.jpg",
-    "static/media/dp_rounded.jpeg": "/myspace/static/media/dp_rounded.711d6ff47dd03c1142a0.jpeg",
+    "main.css": "/myspace/static/css/main.0be6da35.css",
+    "main.js": "/myspace/static/js/main.c486735d.js",
+    "static/media/grp_ 600.jpg": "/myspace/static/media/grp_ 600.71645a2d74d6f0c0d6bb.jpg",
     "static/media/coder2.png": "/myspace/static/media/coder2.c2284bc32b630bbce192.png",
     "static/media/photography.webp": "/myspace/static/media/photography.604447edc17c11f607c3.webp",
-    "static/media/Arduino.jpg": "/myspace/static/media/Arduino.01d4f05083292f8e1fd2.jpg",
+    "static/media/me_512x398.jpeg": "/myspace/static/media/me_512x398.a42033f3acf61689cc04.jpeg",
+    "static/media/dp_rounded_512x512.jpeg": "/myspace/static/media/dp_rounded_512x512.106b3452fe1a56b2f27c.jpeg",
+    "static/media/Binary_512x683.jpeg": "/myspace/static/media/Binary_512x683.4166b405f0200cd50ad8.jpeg",
+    "static/media/Arduino_512x384.jpeg": "/myspace/static/media/Arduino_512x384.c5c4b23332b5b9b7f30b.jpeg",
     "static/media/fb.png": "/myspace/static/media/fb.8fcb5fc5c46be3682f2d.png",
     "static/media/wp.png": "/myspace/static/media/wp.8a7dbb15dfc730877ada.png",
     "static/media/ig.png": "/myspace/static/media/ig.4ad6fe739d04408e1bf4.png",
     "static/media/li.webp": "/myspace/static/media/li.43c568bc85cfbd64bc05.webp",
     "index.html": "/myspace/index.html",
-    "main.5d0ab5e7.css.map": "/myspace/static/css/main.5d0ab5e7.css.map",
-    "main.0e798c3a.js.map": "/myspace/static/js/main.0e798c3a.js.map"
+    "main.0be6da35.css.map": "/myspace/static/css/main.0be6da35.css.map",
+    "main.c486735d.js.map": "/myspace/static/js/main.c486735d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d0ab5e7.css",
-    "static/js/main.0e798c3a.js"
+    "static/css/main.0be6da35.css",
+    "static/js/main.c486735d.js"
   ]
 }
