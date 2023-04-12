@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Other from "./Other"
+import Other from "./Other";
 import p1 from "../social_handels/gh.png";
 import p2 from "../social_handels/li.webp";
 import p3 from "../social_handels/tw.png";
@@ -57,26 +57,78 @@ export default function Contact(props) {
 
         <div className="">
           <div className="mt-16 mx-auto border border-gray-400 bg-white py-7 lg:w-[760px] xl:w-[900px]">
-              <form action="https://formsubmit.co/f71a5fa4717401170d6b2d8f69f7751b" method="POST">
-            <div className="space-y-6">
-              <label className="text-4xl lg:text-5xl">Contact Me</label>
+            <form
+              action="https://formsubmit.co/f71a5fa4717401170d6b2d8f69f7751b"
+              method="POST"
+            >
+              <div className="space-y-6">
+                <label className="text-4xl lg:text-5xl">Contact Me</label>
                 <div className="space-y-6 sm:flex sm:w-5/6 mx-auto sm:space-x-6">
-                  <input type="text" id="fname" name="fname" placeholder="Enter first name" className="border-b border-black px-1 pt-6 text-lg w-5/6"/>
-                  <input type="text" id="lname" name="lname" placeholder="Enter last name" className="border-b border-black p-1 text-lg w-5/6"/>
+                  <input
+                    type="text"
+                    id="fname"
+                    name="fname"
+                    placeholder="Enter first name"
+                    className="border-b border-black px-1 pt-6 text-lg w-5/6"
+                  />
+                  <input
+                    type="text"
+                    id="lname"
+                    name="lname"
+                    placeholder="Enter last name"
+                    className="border-b border-black p-1 text-lg w-5/6"
+                  />
                 </div>
-                <input type="email" id="email" name="email" placeholder="Enter your email here" required className="border-b border-black px-1 text-lg w-5/6"/>
-                <input type="text" id="Sub" name="_subject" placeholder="Subject here" className="border-b border-black px-1 text-lg w-5/6"/>
-                <textarea rows="1" type="text" id="msg" name="msg" placeholder="Say hello!" className="border-b  border-black px-1 text-lg w-5/6"/>
-                <input type="hidden" name="_next" value="https://priyankarkoley.github.io/myspace/"></input>
-                <input type="hidden" name="_next" value="https://priyankarkoley.github.io/contact"></input>
-                <input type="hidden" name="_autoresponse" value="Thanks for contacting us! We will look into your msg soon."></input>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email here"
+                  required
+                  className="border-b border-black px-1 text-lg w-5/6"
+                />
+                <input
+                  type="text"
+                  id="Sub"
+                  name="_subject"
+                  placeholder="Subject here"
+                  className="border-b border-black px-1 text-lg w-5/6"
+                />
+                <textarea
+                  rows="1"
+                  type="text"
+                  id="msg"
+                  name="msg"
+                  placeholder="Say hello!"
+                  className="border-b  border-black px-1 text-lg w-5/6"
+                />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://priyankarkoley.github.io/myspace/"
+                ></input>
+                <input
+                  type="hidden"
+                  name="_autoresponse"
+                  value="Thanks for contacting us! We will look into your msg soon."
+                ></input>
                 <input type="hidden" name="_template" value="table"></input>
-            </div>
-            <button type="submit" onClick={console.log("Submitted!")} className="bg-purple-600 hover:bg-purple-500 px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white">Send</button>
-              </form>
+              </div>
+              <button
+                type="submit"
+                className="bg-purple-600 hover:bg-purple-500 px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white"
+              >
+                Send
+              </button>
+            </form>
           </div>
-            <button onClick={handleClick} className="m-11 bg-purple-600 hover:bg-purple-500 px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white">Other Ways To Contact</button>
-            {isExpanded && <Other/>}
+          <button
+            onClick={handleClick}
+            className="m-11 bg-purple-600 hover:bg-purple-500 px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white"
+          >
+            Other Ways To Contact
+          </button>
+          {isExpanded && <Other />}
         </div>
       </div>
     </span>
