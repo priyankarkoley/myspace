@@ -12,7 +12,7 @@ export default function FamTech() {
         <span className="text-lg sm:text-2xl">C lang.</span>
       </div>
       <div className="py-4 px-1 sm:px-2 flex items-center">
-        <i class="devicon-python-plain colored text-3xl sm:text-4xl mr-4 sm:mr-4"></i>
+        <i class="bg-black rounded-md devicon-python-plain colored text-3xl sm:text-4xl mr-4 sm:mr-4"></i>
         <span className="text-lg sm:text-2xl">Python</span>
       </div>
       <div className="py-4 px-1 sm:px-2 flex items-center">
@@ -44,7 +44,7 @@ export default function FamTech() {
         <span className="text-lg sm:text-2xl">CSS3</span>
       </div>
       <div className="py-4 px-1 sm:px-2 flex items-center">
-        <i class="devicon-javascript-plain colored text-3xl sm:text-4xl mr-4 sm:mr-4"></i>
+        <i class="bg-blue-900 devicon-javascript-plain colored text-3xl sm:text-4xl mr-4 sm:mr-4"></i>
         <span className="text-lg sm:text-2xl">JavaScript</span>
       </div>
       <div className="py-4 px-1 sm:px-2 flex items-center">
@@ -56,7 +56,7 @@ export default function FamTech() {
         <span className="text-lg sm:text-2xl">Git</span>
       </div>
       <div className="py-4 px-1 sm:px-2 flex items-center">
-        <i class="devicon-github-plain colored text-3xl sm:text-4xl mr-4 sm:mr-4"></i>
+        <i class="dark:bg-white dark:rounded-lg devicon-github-plain colored text-3xl sm:text-4xl mr-4 sm:mr-4"></i>
         <span className="text-lg sm:text-2xl">Github</span>
       </div>
       <div className="py-4 px-1 sm:px-2 flex items-center">
@@ -80,7 +80,7 @@ export default function FamTech() {
         <span className="text-lg sm:text-2xl">A W S</span>
       </div>
       <div className="py-4 px-1 sm:px-2 flex items-center">
-        <i class="devicon-nextjs-plain colored text-3xl sm:text-4xl mr-4 sm:mr-4"></i>
+        <i class="dark:bg-white dark:rounded-full devicon-nextjs-plain colored text-3xl sm:text-4xl mr-4 sm:mr-4"></i>
         <span className="text-lg sm:text-2xl">NextJS</span>
       </div>
     </div>

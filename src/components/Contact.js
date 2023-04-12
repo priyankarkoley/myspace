@@ -56,7 +56,7 @@ export default function Contact(props) {
         </div>
 
         <div className="">
-          <div className="mt-16 mx-auto border rounded-lg border-gray-400 bg-white py-7 lg:w-[760px] xl:w-[900px]">
+          <div className="mt-16 mx-auto border rounded-lg border-gray-400 bg-white  dark:bg-[#02195a62] py-7 lg:w-[760px] xl:w-[900px]">
             <form
               action="https://formsubmit.co/f71a5fa4717401170d6b2d8f69f7751b"
               method="POST"
@@ -69,14 +69,14 @@ export default function Contact(props) {
                     id="fname"
                     name="fname"
                     placeholder="Enter first name"
-                    className="rounded-lg border-b border-black px-1 pt-6 text-lg w-5/6"
+                    className="rounded-lg border-b border-black px-1 mt-6 text-lg w-5/6 placeholder:text-black"
                   />
                   <input
                     type="text"
                     id="lname"
                     name="lname"
                     placeholder="Enter last name"
-                    className="rounded-lg border-b border-black p-1 text-lg w-5/6"
+                    className="rounded-lg border-b border-black p-1 text-lg w-5/6 placeholder:text-black"
                   />
                 </div>
                 <input
@@ -85,14 +85,14 @@ export default function Contact(props) {
                   name="email"
                   placeholder="Enter your email here"
                   required
-                  className="rounded-lg border-b border-black px-1 text-lg w-5/6"
+                  className="rounded-lg border-b border-black px-1 text-lg w-5/6 placeholder:text-black"
                 />
                 <input
                   type="text"
                   id="Sub"
                   name="_subject"
                   placeholder="Subject here"
-                  className="rounded-lg border-b border-black px-1 text-lg w-5/6"
+                  className="rounded-lg border-b border-black px-1 text-lg w-5/6 placeholder:text-black"
                 />
                 <textarea
                   rows="1"
@@ -100,7 +100,7 @@ export default function Contact(props) {
                   id="msg"
                   name="msg"
                   placeholder="Say hello!"
-                  className="rounded-lg border-b  border-black px-1 text-lg w-5/6"
+                  className="rounded-lg border-b border-black px-1 text-lg w-5/6 placeholder:text-black"
                 />
                 <input
                   type="hidden"
@@ -111,7 +111,7 @@ export default function Contact(props) {
               </div>
               <button
                 type="submit"
-                className="bg-[#46ABFF] hover:bg-[#46acffa2] px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white"
+                className="font-bold shadow bg-[#46ABFF] hover:bg-[#46acffa2] dark:text-black px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white"
               >
                 Send
               </button>
@@ -119,7 +119,7 @@ export default function Contact(props) {
           </div>
           <button
             onClick={handleClick}
-            className="m-11 bg-[#46ABFF] hover:bg-[#46acffa2] px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white"
+            className="font-bold shadow m-11 bg-[#46ABFF] hover:bg-[#46acffa2] dark:text-black px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white"
           >
             Other Ways To Contact
           </button>

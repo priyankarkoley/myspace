@@ -4,7 +4,7 @@ export default function TargetTech() {
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 md:gap-x-6 xl:gap-x-24 gap-y-2 mt-6 px-5 sm:px-5 w-full sm:w-11/12 mx-auto">
       <div className="py-4 px-1 sm:px-2 flex items-center">
-        <i class="devicon-threejs-original colored text-3xl sm:text-4xl mr-4 sm:mr-4"></i>
+        <i class="dark:bg-white dark:rounded-xl devicon-threejs-original colored text-3xl sm:text-4xl mr-4 sm:mr-4"></i>
         <span className="text-lg sm:text-2xl">ThreeJS</span>
       </div>
       <div className="py-4 px-1 sm:px-2 flex items-center">
