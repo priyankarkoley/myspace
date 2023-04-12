@@ -71,7 +71,7 @@ export default function Contact(props) {
                 <input type="hidden" name="_autoresponse" value="Thanks for contacting us! We will look into your msg soon."></input>
                 <input type="hidden" name="_template" value="table"></input>
             </div>
-            <button type="submit" className="bg-purple-600 hover:bg-purple-500 px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white">Send</button>
+            <button type="submit" onClick={console.log("Submitted!")} className="bg-purple-600 hover:bg-purple-500 px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white">Send</button>
               </form>
           </div>
             <button onClick={handleClick} className="m-11 bg-purple-600 hover:bg-purple-500 px-6 pt-1 pb-2 rounded-3xl border border-purple-950 text-lg text-white">Other Ways To Contact</button>
