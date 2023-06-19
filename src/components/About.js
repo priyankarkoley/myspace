@@ -96,6 +96,14 @@ export default function About(props) {
             </span>
           </div>
         </div>
+
+        <div className="flex flex-col md:flex-row">
+          
+          <div className="  flex items-center">
+            <span>
+              &emsp;&emsp;<span className="hidden md:inline">&emsp;</span>If you want to know more about me or my work, feel free to contact me or check out my portfolio. I'm always open to new opportunities and challenges. Thank you for reading!</span>
+          </div>
+        </div>
       </div>
     </div>
   );

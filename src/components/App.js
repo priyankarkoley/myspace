@@ -10,7 +10,7 @@ export default function App() {
   const [isLightMode, setIsLightMode] = useState(true);
   return (
     <Router>
-      <Navbar mode={isLightMode} setmode={setIsLightMode} />
+      {/*  <Navbar mode={isLightMode} setmode={setIsLightMode} /> */}
       <Routes>
         <Route path='/myspace' element={<Home mode={isLightMode}  />} />
           <Route path="about" element={<About mode={isLightMode}  />} />
